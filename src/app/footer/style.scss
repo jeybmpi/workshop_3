@@ -1,0 +1,56 @@
+.footer{
+    display: flex;
+    background-color: hsl(0, 0%, 0%);
+    height: 150px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: 400px;
+    flex-direction: column;
+    &__superior{
+        display: flex;
+        justify-content: space-between;
+        &__logo{
+            height: 25px;
+            margin-left: 120px;
+            margin-top: 40px;
+        }
+        &__icons{
+            display: flex;
+            height: 30px;
+            margin-top: 40px;
+            margin-right: 120px;
+            gap:10px ;
+            &__contenedor{
+                height: 30px;
+            }
+            &__contenedor:hover{
+                cursor: pointer;
+                border-bottom: solid white 2px;
+            }
+            &__icon{
+                height: 20px;
+               
+            }
+           
+       
+        }
+    }
+    &__abajo{
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+    &__letras{
+        color: white;
+        margin-left: 980px;
+        margin-top: -20px;
+    }
+   
+}
+@media screen and (max-width: 800px) {
+    .footer{
+        margin-top: 1600px;
+    }
+    
+
+}
